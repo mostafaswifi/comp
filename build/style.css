@@ -1,0 +1,9 @@
+body{
+   background-image: url(./omanaa.jpg);
+   background-repeat: no-repeat;
+   background-position: left bottom;
+   background-size: 10%;
+   background-clip: content-box;
+   background-attachment: fixed;
+  
+}
