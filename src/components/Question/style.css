@@ -1,0 +1,30 @@
+
+
+@keyframes blinker {
+    from { opacity: 0.0; }
+    to { opacity: 1.0; }
+  }
+.blink {
+    animation-name: blinker;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+
+
+.picker:active{
+    background-color: aquamarine!important;
+}
+
+.picker:hover{
+    background-color: rgb(129, 127, 255)!important;
+    color: white!important;
+}
+
+.picker:focus{
+    background-color: rgb(129, 127, 255)!important;
+    color: white!important;
+}
+
